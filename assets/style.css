@@ -1,16 +1,54 @@
+* {
+    margin: 0;
+}
 
 body{
-    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+    color: rgb(22, 21, 21);
 }
+
+header {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.logo-simply {
+    height: 5em;
+    margin: 0.5em
+}
+
 
 hr {
     background-color: orange;
 }
 
 .thanksgiving {
+    font-size: 0.7em;
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+    font-weight: 400;
     color: rgb(6, 46, 75);
     margin-bottom: 200px;
 }
+
+
+article, footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+
 
 h1{
     font-size: 50px;
@@ -19,23 +57,25 @@ h1{
 }
 
 .p1 {
-    font-size: 20 px;
+    font-size: 30 px;
     color: rgb(22, 21, 21);
 }
  
 video {
     margin-bottom: 20px;
+    box-shadow: 4px 4px 4px;
+    border-radius: 5px;
 }
 
 figcaption {
     color: rgb(110, 109, 109);
     margin-bottom: 30px;
+    text-align: center;
 }
 
 #cranberries {
-    text-align: justify;
-    margin-left: 30%;
-    margin-right: 50%;
+    
+
     border-left: 1px solid red;
     padding-left: 10px;
     font-size: 20px;
@@ -69,8 +109,9 @@ figcaption {
  }
 
  .h3 {
+
     margin-top: 100px;
-    font-size: 40px;
+    font-size: 28px;
     
     
 
@@ -78,20 +119,19 @@ figcaption {
 
  .line-blue {
     background-color: rgb(0, 89, 255);
-    margin-left: 20%;
-    margin-right: 20%
+    margin-top: 2em;
+    
  }
 
  .focaccia {
     margin-top: 100px;
-    font-weight: 600;
+    font-weight: ;
     font-size: 20px;
  }
 
  ul , li {
-    text-align: justify;
-    margin-left: 30%;
-    margin-right: auto;
+    
+
     font-size: 20 px;
 
     
@@ -99,13 +139,19 @@ figcaption {
  }
 
  .method {
-    margin-left: px;
+    
     font-size: 30px;
  }
 
 .dough{
-     margin-top: 100px;
-    text-align: justify;
-    margin-left: 30%;
+     margin-top: 50px;
     font-size: 20 px;
+}
+
+.lorem {
+    margin-top: 5 px;
+}
+
+footer {
+    margin-top: 2em;
 }
