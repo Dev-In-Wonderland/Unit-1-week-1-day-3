@@ -27,8 +27,9 @@ header {
 }
 
 
-hr {
+.hr {
     background-color: orange;
+    width: 100%;
 }
 
 .thanksgiving {
@@ -110,7 +111,7 @@ figcaption {
 
  .h3 {
 
-    margin-top: 100px;
+    margin-top: 25px;
     font-size: 28px;
     
     
@@ -124,7 +125,7 @@ figcaption {
  }
 
  .focaccia {
-    margin-top: 100px;
+    margin-top: 25px;
     font-weight: ;
     font-size: 20px;
  }
